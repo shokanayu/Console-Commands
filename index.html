@@ -434,6 +434,19 @@
         opacity: 1;
         color: #000000;
       }
+
+      .ritz .waffle .s20 select {
+        background-color: #a26ba8;
+        color: #000001;
+        scrollbar-color: red blue;
+        scrollbar-width: thin;
+      }
+
+      .ritz .waffle .s20 select option:disabled {
+        background-color: #a26ba8;
+        opacity: 1;
+        color: #000000;
+      }
   </style>
   <div class="ritz grid-container" dir="ltr">
       <table class="waffle" cellspacing="2" cellpadding="0" style="width:100%;">
@@ -477,167 +490,263 @@
                   <td class="s11" dir="ltr">interaction identifier</td>
                   <td class="s7"><br></td>
                   <td class="s12" dir="ltr">
-                    <select style="scrollbar-thumb-color: blue; scrollbar-track-color: red;">
-                      <option disabled selected hidden>Items</option>
-                      <option disabled="true">Active_Boost</option>
-                      <option disabled="true">Active_Grapple</option>
-                      <option disabled="true">Active_Heal</option>
-                      <option disabled="true">Active_Jump</option>
-                      <option disabled="true">Active_Redirection</option>
-                      <option disabled="true">Active_Shield</option>
-                      <option disabled="true">Active_Slomo</option>
-                      <option disabled="true">Active_SparkDash</option>
-                      <option disabled="true">Active_TradeHpForBoost</option>
-                      <option disabled="true">Active_TradeSpeedForHeal</option>
-                      <option disabled="true">AutoPilot</option>
-                      <option disabled="true">BecomeInvulnerableForAMomentOnPerfectLanding</option>
-                      <option disabled="true">BlockDamageWithChance</option>
-                      <option disabled="true">BlockDamageWithCooldown</option>
-                      <option disabled="true">BoostPerMissingHealth</option>
-                      <option disabled="true">BoostPerPerfectLandingStreak</option>
-                      <option disabled="true">BoostPerSpark</option>
-                      <option disabled="true">ChanceForFullHP</option>
-                      <option disabled="true">CloseCallBoost</option>
-                      <option disabled="true">CloseCallCooldown</option>
-                      <option disabled="true">CloseCallEcho</option>
-                      <option disabled="true">CloseCallEnergy</option>
-                      <option disabled="true">CloseCallHeal</option>
-                      <option disabled="true">CloseCallInv</option>
-                      <option disabled="true">CloseCallLuck</option>
-                      <option disabled="true">CloseCallSave</option>
-                      <option disabled="true">CooldownReductionOnPerfectLanding</option>
-                      <option disabled="true">CooldownReductionPerBoost</option>
-                      <option disabled="true">CooldownReductionWithCooldown</option>
-                      <option disabled="true">GetBoostAtFullHealth</option>
-                      <option disabled="true">GetBoostOnHeal</option>
-                      <option disabled="true">GetBoostWhenTakeDamage</option>
-                      <option disabled="true">GetBoostWithCooldown</option>
-                      <option disabled="true">GetEnergyWithCooldown</option>
-                      <option disabled="true">GetHealedOnPerfectLanding</option>
-                      <option disabled="true">GetHealthWhenTakeDamage</option>
-                      <option disabled="true">HealthRegenAtAlmostFullHealth</option>
-                      <option disabled="true">LuckPerMissingHealth</option>
-                      <option disabled="true">MaxHealthButDieOnOkOrBadLanding</option>
-                      <option disabled="true">NEW_Active_HealWhenTakeDamage</option>
-                      <option disabled="true">NEW_Active_KillObstacles</option>
-                      <option disabled="true">NEW_Active_KillObstaclesPulse</option>
-                      <option disabled="true">NEW_Active_StickToGround</option>
-                      <option disabled="true">NEW_Active_Teleport</option>
-                      <option disabled="true">NEW_Active_TempSpeed</option>
-                      <option disabled="true">NEW_BigEffectOnSlowSpeed</option>
-                      <option disabled="true">NEW_BoostIfLastLandingWasPerfect</option>
-                      <option disabled="true">NEW_EnergyOnRunning</option>
-                      <option disabled="true">NEW_HealOnRunning</option>
-                      <option disabled="true">NEW_HealPerEnergyUsed</option>
-                      <option disabled="true">NEW_InvuPerEnergyUsed</option>
-                      <option disabled="true">NEW_OnSparkPickupBigEffect</option>
-                      <option disabled="true">NEW_Phoenix</option>
-                      <option disabled="true">NEW_PlaceRingInFront</option>
-                      <option disabled="true">NEW_RegenIfLastLandingWasPerfect</option>
-                      <option disabled="true">NEW_RegenWithSpeed_Threshold</option>
-                      <option disabled="true">NEW_RewindOnDamage</option>
-                      <option disabled="true">NEW_SparksOnRunning</option>
-                      <option disabled="true">NEW_StartWithBoost</option>
-                      <option disabled="true">NEW_StartWithEnergy</option>
-                      <option disabled="true">NEW_StartWithHeal</option>
-                      <option disabled="true">NEW_StartWithMoney</option>
-                      <option disabled="true">OnGetCoin_Boost</option>
-                      <option disabled="true">OnGetCoin_Energy</option>
-                      <option disabled="true">OnGetCoin_Heal</option>
-                      <option disabled="true">OnGetCoin_Invuln</option>
-                      <option disabled="true">PermanentBoost</option>
-                      <option disabled="true">RandomChanceToBoostOnPerfectLanding</option>
-                      <option disabled="true">RandomChanceToGetLuck</option>
-                      <option disabled="true">RandomChanceToRegen</option>
-                      <option disabled="true">RandomChanceToSaveNonPerfectLanding</option>
-                      <option disabled="true">Regen</option>
-                      <option disabled="true">RegenerationPerBoost</option>
-                      <option disabled="true">RegenPercent</option>
-                      <option disabled="true">RegenPerMissingHealth</option>
-                      <option disabled="true">SaveANonPerfectLandingWithCooldown</option>
-                      <option disabled="true">SparksChanceOnPerfectLanding</option>
-                      <option disabled="true">SparksChanceOverTime</option>
-                      <option disabled="true">SparksOnPerfectLanding</option>
-                      <option disabled="true">SparksOverTime</option>
-                      <option disabled="true">SparksOverTimeDamageOnPickUp</option>
-                      <option disabled="true">Stats_CoinPickupRange</option>
-                      <option disabled="true">Stats_Luck</option>
-                      <option disabled="true">Stats_LuckOnFullHealth</option>
-                      <option disabled="true">Stats_MaxHealthFlat</option>
-                      <option disabled="true">Stats_MaxHealthMultiply</option>
-                      <option disabled="true">Stats_MaxHealthOnSpeed</option>
-                      <option disabled="true">Stats_SparkInLevel</option>
-                      <option disabled="true">Stats_SparkOnTakeDamage</option>
-                      <option disabled="true">TakeDamageOnBadLandingButGetPermanentBoost</option>
-                      <option disabled="true">TakeDamageOnCloseCallButGetPermanentBoost</option>
-                      <option disabled="true">MinorItem</option>
-                      <option disabled="true">MinorItem_Captain_ActualProtection</option>
-                      <option disabled="true">MinorItem_Captain_CaptainCautious</option>
-                      <option disabled="true">MinorItem_Captain_CaptainInspired</option>
-                      <option disabled="true">MinorItem_Captain_CaptainPrecisionFocus</option>
-                      <option disabled="true">MinorItem_Captain_CaptainsEncouragement</option>
-                      <option disabled="true">MinorItem_Captain_CaptainsFootsteps</option>
-                      <option disabled="true">MinorItem_Captain_CaptainsLifeLesson</option>
-                      <option disabled="true">MinorItem_Captain_CaptainSpeedFocus</option>
-                      <option disabled="true">MinorItem_Captain_CaptainsRaid</option>
-                      <option disabled="true">MinorItem_Captain_ConditionalProtection</option>
-                      <option disabled="true">MinorItem_Captain_FlotationDevice</option>
-                      <option disabled="true">MinorItem_Captain_NeverStop_1</option>
-                      <option disabled="true">MinorItem_Captain_NeverStop_2</option>
-                      <option disabled="true">MinorItem_Captain_SecretTrainingRegimen_1</option>
-                      <option disabled="true">MinorItem_Captain_SecretTrainingRegimen_2</option>
-                      <option disabled="true">MinorItem_Captain_ThursdayHat</option>
-                      <option disabled="true">MinorItem_EyeForValue</option>
-                      <option disabled="true">MinorItem_SelfPreservation</option>
-                      <option disabled="true">MinorItem_SparkDiscoveries</option>
-                      <option disabled="true">MinorItem_Heir_AerodynamicPractice</option>
-                      <option disabled="true">MinorItem_Heir_Agility</option>
-                      <option disabled="true">MinorItem_Heir_BalanceTraining</option>
-                      <option disabled="true">MinorItem_Heir_CrushingExercise</option>
-                      <option disabled="true">MinorItem_Heir_DefenseTraining</option>
-                      <option disabled="true">MinorItem_Heir_IntenseExercise</option>
-                      <option disabled="true">MinorItem_Heir_Prudence</option>
-                      <option disabled="true">MinorItem_Heir_ResistanceTraining</option>
-                      <option disabled="true">MinorItem_Heir_RiskTaker</option>
-                      <option disabled="true">MinorItem_Heir_RiskTakerCost</option>
-                      <option disabled="true">MinorItem_Heir_Shortcut</option>
-                      <option disabled="true">MinorItem_Heir_ShortcutCost</option>
-                      <option disabled="true">MinorItem_Heir_SparkPractice</option>
-                      <option disabled="true">MinorItem_Researcher_Action</option>
-                      <option disabled="true">MinorItem_Researcher_AncientGravitron</option>
-                      <option disabled="true">MinorItem_Researcher_AncientSlingshot</option>
-                      <option disabled="true">MinorItem_Researcher_BoostTheorem</option>
-                      <option disabled="true">MinorItem_Researcher_HarshReality</option>
-                      <option disabled="true">MinorItem_Researcher_HealthMachine</option>
-                      <option disabled="true">MinorItem_Researcher_OverchargeHarness</option>
-                      <option disabled="true">MinorItem_Researcher_OverchargeHarnessCost</option>
-                      <option disabled="true">MinorItem_Researcher_Reaction</option>
-                      <option disabled="true">MinorItem_Researcher_SpeedOfTime</option>
-                      <option disabled="true">MinorItem_Researcher_Support</option>
-                      <option disabled="true">MinorItem_Researcher_ThisShallPass</option>
-                      <option disabled="true">MinorItem_Researcher_UnclearExistence</option>
-                      <option disabled="true">MinorItem_Researcher_UnstableConsequences</option>
-                      <option disabled="true">MinorItem_Researcher_UnstableInvention</option>
-                      <option disabled="true">MinorItem_AerialLessons</option>
-                      <option disabled="true">MinorItem_GardenRoots</option>
-                      <option disabled="true">MinorItem_ImprovisedPoncho</option>
-                      <option disabled="true">MinorItem_LookingForExcellence</option>
-                      <option disabled="true">MinorItem_MemoriesOfThePast</option>
-                      <option disabled="true">MinorItem_SageSupport</option>
-                      <option disabled="true">MinorItem_UnknowableFuture</option>
-                      <option disabled="true">MinorItem_WraithLightness</option>
-                      <option disabled="true">MinorItem_WraithLightness2</option>
-                      <option disabled="true">MinorItem_WraithRecharged</option>
-                      <option disabled="true">MinorItem_WraithSolidity</option>
-                      <option disabled="true">MinorItem_WraithSolidity2</option>
-                      <option disabled="true">MinorItem_Wraith_BreathingExercises</option>
-                      <option disabled="true">MinorItem_Wraith_ButterflyLunge</option>
-                      <option disabled="true">MinorItem_Wraith_ButterflySpin</option>
-                      <option disabled="true">MinorItem_Wraith_ConnectionToTheBeyond</option>
-                      <option disabled="true">MinorItem_Wraith_JustOutOfSight</option>
-                      <option disabled="true">MinorItem_Wraith_LightenedHeart</option>
-                      <option disabled="true">MinorItem_Wraith_MatterFromEnergy</option>
-                      <option disabled="true">MinorItem_Wraith_SharedSearch</option>
+                    <select>
+                      <option disabled selected hidden>Click to view list of interaction identifiers</option>
+                      <option disabled>AbilityUnlock_Captain</option>
+                      <option disabled>AbilityUnlock_Heir</option>
+                      <option disabled>AbilityUnlock_Sage</option>
+                      <option disabled>AbilityUnlock_Wraith</option>
+                      <option disabled>Open_AllTimeStats</option>
+                      <option disabled>Open_MetaShop</option>
+                      <option disabled>Open_UnlockedItems</option>
+                      <option disabled>Demo_EnergyTutorial</option>
+                      <option disabled>Demo_HubWorld</option>
+                      <option disabled>Demo_OutOfBounds1</option>
+                      <option disabled>Demo_OutOfBounds2</option>
+                      <option disabled>Demo_OutOfBounds3</option>
+                      <option disabled>Demo_ShardCompleted</option>
+                      <option disabled>Demo_Shop</option>
+                      <option disabled>Demo_ShopExplanation</option>
+                      <option disabled>Demo_TutorialStart</option>
+                      <option disabled>01_Main_Start</option>
+                      <option disabled>02_Main_Shard</option>
+                      <option disabled>03_Main_Cause</option>
+                      <option disabled>04_Main_SecondRun_Heir</option>
+                      <option disabled>05_Main_AfterSecondRun</option>
+                      <option disabled>06_Main_ThirdRun_Heir</option>
+                      <option disabled>07_Main_FirstResearcher01</option>
+                      <option disabled>08_Main_FirstResearcher02</option>
+                      <option disabled>09_Main_FirstResearcher03</option>
+                      <option disabled>10_Main_ResearcherExposition</option>
+                      <option disabled>11_Main_FirstCaptain</option>
+                      <option disabled>11_Main_SecondCaptain</option>
+                      <option disabled>12_Main_Captain_HubArrival</option>
+                      <option disabled>13_Main_Boss1Encountered</option>
+                      <option disabled>14_Main_AgencyEncountered</option>
+                      <option disabled>15_Main_Shard01_Completed</option>
+                      <option disabled>16_Main_Shard02_Start</option>
+                      <option disabled>17_Main_MeetHeir</option>
+                      <option disabled>18_Main_MeetHeirHub</option>
+                      <option disabled>19_Main_HeirAgencyLeader</option>
+                      <option disabled>20_Main_MeetAgencyLeader</option>
+                      <option disabled>21_Main_MeetGrunt</option>
+                      <option disabled>22_Main_Shard02_Completed_Heir</option>
+                      <option disabled>23_Main_Shard02_Completed_Sage</option>
+                      <option disabled>25_Main_Wraith01</option>
+                      <option disabled>26_Main_Wraith02</option>
+                      <option disabled>27_Main_Wraith03</option>
+                      <option disabled>28_Main_Wraith04</option>
+                      <option disabled>29_Main_Wraith05</option>
+                      <option disabled>30_Main_WraithHub</option>
+                      <option disabled>31_Main_Apocalypse01</option>
+                      <option disabled>32_Main_Apocalypse02</option>
+                      <option disabled>33_Main_Apocalypse03</option>
+                      <option disabled>34_Main_Apocalypse04</option>
+                      <option disabled>35_Main_Timelines01</option>
+                      <option disabled>36_Main_Timelines02</option>
+                      <option disabled>37_Main_Timelines03</option>
+                      <option disabled>38_Main_Timelines04</option>
+                      <option disabled>39_Main_Timelines05</option>
+                      <option disabled>40_Main_Timelines06</option>
+                      <option disabled>41_Main_Timelines07</option>
+                      <option disabled>42_Main_Timelines08</option>
+                      <option disabled>43_Main_Timelines09</option>
+                      <option disabled>44_Main_Timelines10</option>
+                      <option disabled>45_Main_Timelines11</option>
+                      <option disabled>46_Main_Timelines12</option>
+                      <option disabled>47_Main_Timelines13</option>
+                      <option disabled>48_Main_AgencyPurpose01</option>
+                      <option disabled>49_Main_AgencyPurpose02</option>
+                      <option disabled>50_Main_AgencyPurpose03</option>
+                      <option disabled>51_Main_AgencyPurpose04</option>
+                      <option disabled>52_Main_AgencyPurpose05</option>
+                      <option disabled>53_Main_AgencyPurpose06</option>
+                      <option disabled>54_Main_AgencyPurpose07</option>
+                      <option disabled>55_Main_Resets01</option>
+                      <option disabled>56_Main_Resets02</option>
+                      <option disabled>57_Main_Resets03</option>
+                      <option disabled>58_Main_Resets04</option>
+                      <option disabled>59_Main_Resets05</option>
+                      <option disabled>60_Main_AgencyLeader01</option>
+                      <option disabled>61_Main_AgencyLeader02</option>
+                      <option disabled>62_Main_AgencyLeader03</option>
+                      <option disabled>63_Main_AgencyLeader04</option>
+                      <option disabled>64_Main_AgencyLeader05</option>
+                      <option disabled>65_Main_AgencyLeader06</option>
+                      <option disabled>66_Main_ExistentialCrisis01</option>
+                      <option disabled>67_Main_ExistentialCrisis02</option>
+                      <option disabled>68_Main_ExistentialCrisis03</option>
+                      <option disabled>69_Main_ExistentialCrisis04</option>
+                      <option disabled>70_Main_ExistentialCrisis05</option>
+                      <option disabled>71_Main_ExistentialCrisis06</option>
+                      <option disabled>72_Main_ExistentialCrisis07</option>
+                      <option disabled>73_Main_ExistentialCrisis08</option>
+                      <option disabled>74_Main_ExistentialCrisis09</option>
+                      <option disabled>75_Main_ExistentialCrisis10</option>
+                      <option disabled>76_Main_Conviction01</option>
+                      <option disabled>77_Main_Conviction02</option>
+                      <option disabled>78_Main_EndWarmup01</option>
+                      <option disabled>79_Main_EndWarmup02</option>
+                      <option disabled>80_Main_EndWarmup03</option>
+                      <option disabled>81_Main_FinalBoss_Start</option>
+                      <option disabled>82_Main_FinalBoss_FirstHit</option>
+                      <option disabled>83_Main_FinalBoss_FinalStage</option>
+                      <option disabled>84_Main_EnteredSpark</option>
+                      <option disabled>85_Main_Farewell_Keeper</option>
+                      <option disabled>86_Main_Farewell_Researcher</option>
+                      <option disabled>87_Main_Farewell_Captain</option>
+                      <option disabled>87_Main_Farewell_Wraith</option>
+                      <option disabled>88_Main_Farewell_Sage</option>
+                      <option disabled>89_Main_Farewell_Heir</option>
+                      <option disabled>90_Main_Farewell_Leader</option>
+                      <option disabled>FirstHubReturn</option>
+                      <option disabled>KeeperHub01</option>
+                      <option disabled>KeeperHub02</option>
+                      <option disabled>ResearcherHub01</option>
+                      <option disabled>StartGame01</option>
+                      <option disabled>StartGame02</option>
+                      <option disabled>Tutorial01</option>
+                      <option disabled>Tutorial02</option>
+                      <option disabled>Rest_Captain_AgencyGrunts</option>
+                      <option disabled>Rest_Captain_Duration</option>
+                      <option disabled>Rest_Captain_FateOfCrew</option>
+                      <option disabled>Rest_Captain_Guitar</option>
+                      <option disabled>Rest_Captain_Home</option>
+                      <option disabled>Rest_Captain_OtherPositions</option>
+                      <option disabled>Rest_Captain_RestRequired</option>
+                      <option disabled>Rest_Captain_Return</option>
+                      <option disabled>Rest_Captain_SelfCongratulation</option>
+                      <option disabled>Rest_Captain_Villain</option>
+                      <option disabled>Rest_Captain_WayOut</option>
+                      <option disabled>Interaction_CaptainRestScene_Greet_Followup</option>
+                      <option disabled>Rest_Heir_AgencyMachines</option>
+                      <option disabled>Rest_Heir_AgencySpotted</option>
+                      <option disabled>Rest_Heir_BuildingFires1</option>
+                      <option disabled>Rest_Heir_BuildingFires2</option>
+                      <option disabled>Rest_Heir_CaptainChasedOff</option>
+                      <option disabled>Rest_Heir_Humming1</option>
+                      <option disabled>Rest_Heir_Humming2</option>
+                      <option disabled>Rest_Heir_Hush</option>
+                      <option disabled>Rest_Heir_PeaceAndQuiet1</option>
+                      <option disabled>Rest_Heir_PeaceAndQuiet2</option>
+                      <option disabled>Rest_Heir_SearchingForStability</option>
+                      <option disabled>Rest_Sage_Foraging</option>
+                      <option disabled>Rest_Sage_LivedThroughWorse</option>
+                      <option disabled>Rest_Sage_OkayOutHere</option>
+                      <option disabled>Rest_Sage_ReplaceMe</option>
+                      <option disabled>Agency_CaptainInfo</option>
+                      <option disabled>Agency_Grunts1</option>
+                      <option disabled>Agency_Grunts2</option>
+                      <option disabled>Agency_Grunts3</option>
+                      <option disabled>Agency_Grunts4</option>
+                      <option disabled>Agency_Grunts5</option>
+                      <option disabled>Agency_KeeperInfo</option>
+                      <option disabled>Agency_ResearcherInfo</option>
+                      <option disabled>CaptainCrew01</option>
+                      <option disabled>CaptainCrew02</option>
+                      <option disabled>CaptainHeir01</option>
+                      <option disabled>CaptainHeir02</option>
+                      <option disabled>CaptainInstrument01</option>
+                      <option disabled>CaptainSage01</option>
+                      <option disabled>CaptainSide01</option>
+                      <option disabled>CaptainSide02</option>
+                      <option disabled>CaptainSide03</option>
+                      <option disabled>CaptainSide04</option>
+                      <option disabled>CaptainSide05</option>
+                      <option disabled>CaptainSide06</option>
+                      <option disabled>CaptainWraith01</option>
+                      <option disabled>CaptainWraith02</option>
+                      <option disabled>CaptainWraith03</option>
+                      <option disabled>CoffeeCaptain01</option>
+                      <option disabled>CoffeeCaptain02</option>
+                      <option disabled>CoffeeHeir01</option>
+                      <option disabled>CoffeeHeir02</option>
+                      <option disabled>CoffeeKeeper01</option>
+                      <option disabled>CoffeeLeader01</option>
+                      <option disabled>CoffeeSage01</option>
+                      <option disabled>CoffeeSage02</option>
+                      <option disabled>CoffeeSage03</option>
+                      <option disabled>CoffeeWeeboh01</option>
+                      <option disabled>CoffeeWeeboh02</option>
+                      <option disabled>CoffeeWeeboh03</option>
+                      <option disabled>CoffeeWeeboh04</option>
+                      <option disabled>CoffeeWeeboh05</option>
+                      <option disabled>CoffeeWraith01</option>
+                      <option disabled>CoffeeWraith02</option>
+                      <option disabled>CoffeeWraith03</option>
+                      <option disabled>CookingCaptain01</option>
+                      <option disabled>CookingCaptain02</option>
+                      <option disabled>CookingHeir01</option>
+                      <option disabled>CookingResearcher01</option>
+                      <option disabled>CookingResearcher02</option>
+                      <option disabled>CookingResearcher03</option>
+                      <option disabled>CookingResearcher04</option>
+                      <option disabled>CookingResearcher05</option>
+                      <option disabled>CookingWeeboh01</option>
+                      <option disabled>CourierBackground01</option>
+                      <option disabled>CourierBackground02</option>
+                      <option disabled>CourierBackground03</option>
+                      <option disabled>CourierBackground04</option>
+                      <option disabled>CourierBackground05</option>
+                      <option disabled>CourierBackground06</option>
+                      <option disabled>CourierBackground07</option>
+                      <option disabled>CourierBackground08</option>
+                      <option disabled>CourierBackground09</option>
+                      <option disabled>CourierBackground10</option>
+                      <option disabled>CourierBackground11</option>
+                      <option disabled>CourierBackground12</option>
+                      <option disabled>HeirCaptain01</option>
+                      <option disabled>HeirCaptain02</option>
+                      <option disabled>HeirCaptain03</option>
+                      <option disabled>HeirCourier01</option>
+                      <option disabled>HeirCourier02</option>
+                      <option disabled>HeirSage01</option>
+                      <option disabled>HeirSide01</option>
+                      <option disabled>HeirSide02</option>
+                      <option disabled>HeirSide03</option>
+                      <option disabled>HeirSide04</option>
+                      <option disabled>HeirSide05</option>
+                      <option disabled>HeirSide06</option>
+                      <option disabled>HeirSide07</option>
+                      <option disabled>KeeperCaptain01</option>
+                      <option disabled>KeeperCaptain02</option>
+                      <option disabled>KeeperHeir01</option>
+                      <option disabled>KeeperHeir02</option>
+                      <option disabled>KeeperResearcher01</option>
+                      <option disabled>KeeperResearcher02</option>
+                      <option disabled>KeeperSage01</option>
+                      <option disabled>KeeperSage02</option>
+                      <option disabled>KeeperSide01</option>
+                      <option disabled>KeeperSide02</option>
+                      <option disabled>KeeperSide03</option>
+                      <option disabled>KeeperSide04</option>
+                      <option disabled>KeeperSide05</option>
+                      <option disabled>KeeperSide06</option>
+                      <option disabled>KeeperSide07</option>
+                      <option disabled>KeeperWraith01</option>
+                      <option disabled>KeeperWraith02</option>
+                      <option disabled>01_Researcher_GetToKnow01</option>
+                      <option disabled>02_Researcher_GetToKnow02</option>
+                      <option disabled>03_Researcher_GetToKnow03</option>
+                      <option disabled>04_Researcher_GetToKnow04</option>
+                      <option disabled>05_Researcher_OtherWorlds01</option>
+                      <option disabled>06_Researcher_OtherWorlds02</option>
+                      <option disabled>07_Researcher_CluesToThePast01</option>
+                      <option disabled>08_Researcher_CluesToThePast02</option>
+                      <option disabled>09_Researcher_MadeMistakes01</option>
+                      <option disabled>10_Researcher_MadeMistakes02</option>
+                      <option disabled>11_Researcher_MadeMistakes03</option>
+                      <option disabled>12_Researcher_MadeMistakes04</option>
+                      <option disabled>13_Researcher_MadeMistakes05</option>
+                      <option disabled>SageHeirConflict01</option>
+                      <option disabled>SageHeirConflict02</option>
+                      <option disabled>SageHeirConflict03</option>
+                      <option disabled>SageHeirConflict04</option>
+                      <option disabled>SageHeirConflict05</option>
+                      <option disabled>SageSide01</option>
+                      <option disabled>SageSide02</option>
+                      <option disabled>SageSide03</option>
+                      <option disabled>SageSide04</option>
                     </select></td>
                   <td class="s9" dir="ltr">Runs a conversation with an NPC</td>
               </tr>
@@ -671,167 +780,169 @@
                   <td class="s6" dir="ltr">AddItem</td>
                   <td class="s11" dir="ltr">item identifier</td>
                   <td class="s7"><br></td>
-                  <td class="s12" dir="ltr"><select disabled="true">
-                    <option>Active_Boost</option>
-                    <option>Active_Grapple</option>
-                    <option>Active_Heal</option>
-                    <option>Active_Jump</option>
-                    <option>Active_Redirection</option>
-                    <option>Active_Shield</option>
-                    <option>Active_Slomo</option>
-                    <option>Active_SparkDash</option>
-                    <option>Active_TradeHpForBoost</option>
-                    <option>Active_TradeSpeedForHeal</option>
-                    <option>AutoPilot</option>
-                    <option>BecomeInvulnerableForAMomentOnPerfectLanding</option>
-                    <option>BlockDamageWithChance</option>
-                    <option>BlockDamageWithCooldown</option>
-                    <option>BoostPerMissingHealth</option>
-                    <option>BoostPerPerfectLandingStreak</option>
-                    <option>BoostPerSpark</option>
-                    <option>ChanceForFullHP</option>
-                    <option>CloseCallBoost</option>
-                    <option>CloseCallCooldown</option>
-                    <option>CloseCallEcho</option>
-                    <option>CloseCallEnergy</option>
-                    <option>CloseCallHeal</option>
-                    <option>CloseCallInv</option>
-                    <option>CloseCallLuck</option>
-                    <option>CloseCallSave</option>
-                    <option>CooldownReductionOnPerfectLanding</option>
-                    <option>CooldownReductionPerBoost</option>
-                    <option>CooldownReductionWithCooldown</option>
-                    <option>GetBoostAtFullHealth</option>
-                    <option>GetBoostOnHeal</option>
-                    <option>GetBoostWhenTakeDamage</option>
-                    <option>GetBoostWithCooldown</option>
-                    <option>GetEnergyWithCooldown</option>
-                    <option>GetHealedOnPerfectLanding</option>
-                    <option>GetHealthWhenTakeDamage</option>
-                    <option>HealthRegenAtAlmostFullHealth</option>
-                    <option>LuckPerMissingHealth</option>
-                    <option>MaxHealthButDieOnOkOrBadLanding</option>
-                    <option>NEW_Active_HealWhenTakeDamage</option>
-                    <option>NEW_Active_KillObstacles</option>
-                    <option>NEW_Active_KillObstaclesPulse</option>
-                    <option>NEW_Active_StickToGround</option>
-                    <option>NEW_Active_Teleport</option>
-                    <option>NEW_Active_TempSpeed</option>
-                    <option>NEW_BigEffectOnSlowSpeed</option>
-                    <option>NEW_BoostIfLastLandingWasPerfect</option>
-                    <option>NEW_EnergyOnRunning</option>
-                    <option>NEW_HealOnRunning</option>
-                    <option>NEW_HealPerEnergyUsed</option>
-                    <option>NEW_InvuPerEnergyUsed</option>
-                    <option>NEW_OnSparkPickupBigEffect</option>
-                    <option>NEW_Phoenix</option>
-                    <option>NEW_PlaceRingInFront</option>
-                    <option>NEW_RegenIfLastLandingWasPerfect</option>
-                    <option>NEW_RegenWithSpeed_Threshold</option>
-                    <option>NEW_RewindOnDamage</option>
-                    <option>NEW_SparksOnRunning</option>
-                    <option>NEW_StartWithBoost</option>
-                    <option>NEW_StartWithEnergy</option>
-                    <option>NEW_StartWithHeal</option>
-                    <option>NEW_StartWithMoney</option>
-                    <option>OnGetCoin_Boost</option>
-                    <option>OnGetCoin_Energy</option>
-                    <option>OnGetCoin_Heal</option>
-                    <option>OnGetCoin_Invuln</option>
-                    <option>PermanentBoost</option>
-                    <option>RandomChanceToBoostOnPerfectLanding</option>
-                    <option>RandomChanceToGetLuck</option>
-                    <option>RandomChanceToRegen</option>
-                    <option>RandomChanceToSaveNonPerfectLanding</option>
-                    <option>Regen</option>
-                    <option>RegenerationPerBoost</option>
-                    <option>RegenPercent</option>
-                    <option>RegenPerMissingHealth</option>
-                    <option>SaveANonPerfectLandingWithCooldown</option>
-                    <option>SparksChanceOnPerfectLanding</option>
-                    <option>SparksChanceOverTime</option>
-                    <option>SparksOnPerfectLanding</option>
-                    <option>SparksOverTime</option>
-                    <option>SparksOverTimeDamageOnPickUp</option>
-                    <option>Stats_CoinPickupRange</option>
-                    <option>Stats_Luck</option>
-                    <option>Stats_LuckOnFullHealth</option>
-                    <option>Stats_MaxHealthFlat</option>
-                    <option>Stats_MaxHealthMultiply</option>
-                    <option>Stats_MaxHealthOnSpeed</option>
-                    <option>Stats_SparkInLevel</option>
-                    <option>Stats_SparkOnTakeDamage</option>
-                    <option>TakeDamageOnBadLandingButGetPermanentBoost</option>
-                    <option>TakeDamageOnCloseCallButGetPermanentBoost</option>
-                    <option>MinorItem</option>
-                    <option>MinorItem_Captain_ActualProtection</option>
-                    <option>MinorItem_Captain_CaptainCautious</option>
-                    <option>MinorItem_Captain_CaptainInspired</option>
-                    <option>MinorItem_Captain_CaptainPrecisionFocus</option>
-                    <option>MinorItem_Captain_CaptainsEncouragement</option>
-                    <option>MinorItem_Captain_CaptainsFootsteps</option>
-                    <option>MinorItem_Captain_CaptainsLifeLesson</option>
-                    <option>MinorItem_Captain_CaptainSpeedFocus</option>
-                    <option>MinorItem_Captain_CaptainsRaid</option>
-                    <option>MinorItem_Captain_ConditionalProtection</option>
-                    <option>MinorItem_Captain_FlotationDevice</option>
-                    <option>MinorItem_Captain_NeverStop_1</option>
-                    <option>MinorItem_Captain_NeverStop_2</option>
-                    <option>MinorItem_Captain_SecretTrainingRegimen_1</option>
-                    <option>MinorItem_Captain_SecretTrainingRegimen_2</option>
-                    <option>MinorItem_Captain_ThursdayHat</option>
-                    <option>MinorItem_EyeForValue</option>
-                    <option>MinorItem_SelfPreservation</option>
-                    <option>MinorItem_SparkDiscoveries</option>
-                    <option>MinorItem_Heir_AerodynamicPractice</option>
-                    <option>MinorItem_Heir_Agility</option>
-                    <option>MinorItem_Heir_BalanceTraining</option>
-                    <option>MinorItem_Heir_CrushingExercise</option>
-                    <option>MinorItem_Heir_DefenseTraining</option>
-                    <option>MinorItem_Heir_IntenseExercise</option>
-                    <option>MinorItem_Heir_Prudence</option>
-                    <option>MinorItem_Heir_ResistanceTraining</option>
-                    <option>MinorItem_Heir_RiskTaker</option>
-                    <option>MinorItem_Heir_RiskTakerCost</option>
-                    <option>MinorItem_Heir_Shortcut</option>
-                    <option>MinorItem_Heir_ShortcutCost</option>
-                    <option>MinorItem_Heir_SparkPractice</option>
-                    <option>MinorItem_Researcher_Action</option>
-                    <option>MinorItem_Researcher_AncientGravitron</option>
-                    <option>MinorItem_Researcher_AncientSlingshot</option>
-                    <option>MinorItem_Researcher_BoostTheorem</option>
-                    <option>MinorItem_Researcher_HarshReality</option>
-                    <option>MinorItem_Researcher_HealthMachine</option>
-                    <option>MinorItem_Researcher_OverchargeHarness</option>
-                    <option>MinorItem_Researcher_OverchargeHarnessCost</option>
-                    <option>MinorItem_Researcher_Reaction</option>
-                    <option>MinorItem_Researcher_SpeedOfTime</option>
-                    <option>MinorItem_Researcher_Support</option>
-                    <option>MinorItem_Researcher_ThisShallPass</option>
-                    <option>MinorItem_Researcher_UnclearExistence</option>
-                    <option>MinorItem_Researcher_UnstableConsequences</option>
-                    <option>MinorItem_Researcher_UnstableInvention</option>
-                    <option>MinorItem_AerialLessons</option>
-                    <option>MinorItem_GardenRoots</option>
-                    <option>MinorItem_ImprovisedPoncho</option>
-                    <option>MinorItem_LookingForExcellence</option>
-                    <option>MinorItem_MemoriesOfThePast</option>
-                    <option>MinorItem_SageSupport</option>
-                    <option>MinorItem_UnknowableFuture</option>
-                    <option>MinorItem_WraithLightness</option>
-                    <option>MinorItem_WraithLightness2</option>
-                    <option>MinorItem_WraithRecharged</option>
-                    <option>MinorItem_WraithSolidity</option>
-                    <option>MinorItem_WraithSolidity2</option>
-                    <option>MinorItem_Wraith_BreathingExercises</option>
-                    <option>MinorItem_Wraith_ButterflyLunge</option>
-                    <option>MinorItem_Wraith_ButterflySpin</option>
-                    <option>MinorItem_Wraith_ConnectionToTheBeyond</option>
-                    <option>MinorItem_Wraith_JustOutOfSight</option>
-                    <option>MinorItem_Wraith_LightenedHeart</option>
-                    <option>MinorItem_Wraith_MatterFromEnergy</option>
-                    <option>MinorItem_Wraith_SharedSearch</option>
-                  </select></td>
+                  <td class="s12" dir="ltr">
+                    <select style="scrollbar-thumb-color: blue; scrollbar-track-color: red;">
+                      <option disabled selected hidden>Click to view list of item identifiers</option>
+                      <option disabled>Active_Boost</option>
+                      <option disabled>Active_Grapple</option>
+                      <option disabled>Active_Heal</option>
+                      <option disabled>Active_Jump</option>
+                      <option disabled>Active_Redirection</option>
+                      <option disabled>Active_Shield</option>
+                      <option disabled>Active_Slomo</option>
+                      <option disabled>Active_SparkDash</option>
+                      <option disabled>Active_TradeHpForBoost</option>
+                      <option disabled>Active_TradeSpeedForHeal</option>
+                      <option disabled>AutoPilot</option>
+                      <option disabled>BecomeInvulnerableForAMomentOnPerfectLanding</option>
+                      <option disabled>BlockDamageWithChance</option>
+                      <option disabled>BlockDamageWithCooldown</option>
+                      <option disabled>BoostPerMissingHealth</option>
+                      <option disabled>BoostPerPerfectLandingStreak</option>
+                      <option disabled>BoostPerSpark</option>
+                      <option disabled>ChanceForFullHP</option>
+                      <option disabled>CloseCallBoost</option>
+                      <option disabled>CloseCallCooldown</option>
+                      <option disabled>CloseCallEcho</option>
+                      <option disabled>CloseCallEnergy</option>
+                      <option disabled>CloseCallHeal</option>
+                      <option disabled>CloseCallInv</option>
+                      <option disabled>CloseCallLuck</option>
+                      <option disabled>CloseCallSave</option>
+                      <option disabled>CooldownReductionOnPerfectLanding</option>
+                      <option disabled>CooldownReductionPerBoost</option>
+                      <option disabled>CooldownReductionWithCooldown</option>
+                      <option disabled>GetBoostAtFullHealth</option>
+                      <option disabled>GetBoostOnHeal</option>
+                      <option disabled>GetBoostWhenTakeDamage</option>
+                      <option disabled>GetBoostWithCooldown</option>
+                      <option disabled>GetEnergyWithCooldown</option>
+                      <option disabled>GetHealedOnPerfectLanding</option>
+                      <option disabled>GetHealthWhenTakeDamage</option>
+                      <option disabled>HealthRegenAtAlmostFullHealth</option>
+                      <option disabled>LuckPerMissingHealth</option>
+                      <option disabled>MaxHealthButDieOnOkOrBadLanding</option>
+                      <option disabled>NEW_Active_HealWhenTakeDamage</option>
+                      <option disabled>NEW_Active_KillObstacles</option>
+                      <option disabled>NEW_Active_KillObstaclesPulse</option>
+                      <option disabled>NEW_Active_StickToGround</option>
+                      <option disabled>NEW_Active_Teleport</option>
+                      <option disabled>NEW_Active_TempSpeed</option>
+                      <option disabled>NEW_BigEffectOnSlowSpeed</option>
+                      <option disabled>NEW_BoostIfLastLandingWasPerfect</option>
+                      <option disabled>NEW_EnergyOnRunning</option>
+                      <option disabled>NEW_HealOnRunning</option>
+                      <option disabled>NEW_HealPerEnergyUsed</option>
+                      <option disabled>NEW_InvuPerEnergyUsed</option>
+                      <option disabled>NEW_OnSparkPickupBigEffect</option>
+                      <option disabled>NEW_Phoenix</option>
+                      <option disabled>NEW_PlaceRingInFront</option>
+                      <option disabled>NEW_RegenIfLastLandingWasPerfect</option>
+                      <option disabled>NEW_RegenWithSpeed_Threshold</option>
+                      <option disabled>NEW_RewindOnDamage</option>
+                      <option disabled>NEW_SparksOnRunning</option>
+                      <option disabled>NEW_StartWithBoost</option>
+                      <option disabled>NEW_StartWithEnergy</option>
+                      <option disabled>NEW_StartWithHeal</option>
+                      <option disabled>NEW_StartWithMoney</option>
+                      <option disabled>OnGetCoin_Boost</option>
+                      <option disabled>OnGetCoin_Energy</option>
+                      <option disabled>OnGetCoin_Heal</option>
+                      <option disabled>OnGetCoin_Invuln</option>
+                      <option disabled>PermanentBoost</option>
+                      <option disabled>RandomChanceToBoostOnPerfectLanding</option>
+                      <option disabled>RandomChanceToGetLuck</option>
+                      <option disabled>RandomChanceToRegen</option>
+                      <option disabled>RandomChanceToSaveNonPerfectLanding</option>
+                      <option disabled>Regen</option>
+                      <option disabled>RegenerationPerBoost</option>
+                      <option disabled>RegenPercent</option>
+                      <option disabled>RegenPerMissingHealth</option>
+                      <option disabled>SaveANonPerfectLandingWithCooldown</option>
+                      <option disabled>SparksChanceOnPerfectLanding</option>
+                      <option disabled>SparksChanceOverTime</option>
+                      <option disabled>SparksOnPerfectLanding</option>
+                      <option disabled>SparksOverTime</option>
+                      <option disabled>SparksOverTimeDamageOnPickUp</option>
+                      <option disabled>Stats_CoinPickupRange</option>
+                      <option disabled>Stats_Luck</option>
+                      <option disabled>Stats_LuckOnFullHealth</option>
+                      <option disabled>Stats_MaxHealthFlat</option>
+                      <option disabled>Stats_MaxHealthMultiply</option>
+                      <option disabled>Stats_MaxHealthOnSpeed</option>
+                      <option disabled>Stats_SparkInLevel</option>
+                      <option disabled>Stats_SparkOnTakeDamage</option>
+                      <option disabled>TakeDamageOnBadLandingButGetPermanentBoost</option>
+                      <option disabled>TakeDamageOnCloseCallButGetPermanentBoost</option>
+                      <option disabled>MinorItem</option>
+                      <option disabled>MinorItem_Captain_ActualProtection</option>
+                      <option disabled>MinorItem_Captain_CaptainCautious</option>
+                      <option disabled>MinorItem_Captain_CaptainInspired</option>
+                      <option disabled>MinorItem_Captain_CaptainPrecisionFocus</option>
+                      <option disabled>MinorItem_Captain_CaptainsEncouragement</option>
+                      <option disabled>MinorItem_Captain_CaptainsFootsteps</option>
+                      <option disabled>MinorItem_Captain_CaptainsLifeLesson</option>
+                      <option disabled>MinorItem_Captain_CaptainSpeedFocus</option>
+                      <option disabled>MinorItem_Captain_CaptainsRaid</option>
+                      <option disabled>MinorItem_Captain_ConditionalProtection</option>
+                      <option disabled>MinorItem_Captain_FlotationDevice</option>
+                      <option disabled>MinorItem_Captain_NeverStop_1</option>
+                      <option disabled>MinorItem_Captain_NeverStop_2</option>
+                      <option disabled>MinorItem_Captain_SecretTrainingRegimen_1</option>
+                      <option disabled>MinorItem_Captain_SecretTrainingRegimen_2</option>
+                      <option disabled>MinorItem_Captain_ThursdayHat</option>
+                      <option disabled>MinorItem_EyeForValue</option>
+                      <option disabled>MinorItem_SelfPreservation</option>
+                      <option disabled>MinorItem_SparkDiscoveries</option>
+                      <option disabled>MinorItem_Heir_AerodynamicPractice</option>
+                      <option disabled>MinorItem_Heir_Agility</option>
+                      <option disabled>MinorItem_Heir_BalanceTraining</option>
+                      <option disabled>MinorItem_Heir_CrushingExercise</option>
+                      <option disabled>MinorItem_Heir_DefenseTraining</option>
+                      <option disabled>MinorItem_Heir_IntenseExercise</option>
+                      <option disabled>MinorItem_Heir_Prudence</option>
+                      <option disabled>MinorItem_Heir_ResistanceTraining</option>
+                      <option disabled>MinorItem_Heir_RiskTaker</option>
+                      <option disabled>MinorItem_Heir_RiskTakerCost</option>
+                      <option disabled>MinorItem_Heir_Shortcut</option>
+                      <option disabled>MinorItem_Heir_ShortcutCost</option>
+                      <option disabled>MinorItem_Heir_SparkPractice</option>
+                      <option disabled>MinorItem_Researcher_Action</option>
+                      <option disabled>MinorItem_Researcher_AncientGravitron</option>
+                      <option disabled>MinorItem_Researcher_AncientSlingshot</option>
+                      <option disabled>MinorItem_Researcher_BoostTheorem</option>
+                      <option disabled>MinorItem_Researcher_HarshReality</option>
+                      <option disabled>MinorItem_Researcher_HealthMachine</option>
+                      <option disabled>MinorItem_Researcher_OverchargeHarness</option>
+                      <option disabled>MinorItem_Researcher_OverchargeHarnessCost</option>
+                      <option disabled>MinorItem_Researcher_Reaction</option>
+                      <option disabled>MinorItem_Researcher_SpeedOfTime</option>
+                      <option disabled>MinorItem_Researcher_Support</option>
+                      <option disabled>MinorItem_Researcher_ThisShallPass</option>
+                      <option disabled>MinorItem_Researcher_UnclearExistence</option>
+                      <option disabled>MinorItem_Researcher_UnstableConsequences</option>
+                      <option disabled>MinorItem_Researcher_UnstableInvention</option>
+                      <option disabled>MinorItem_AerialLessons</option>
+                      <option disabled>MinorItem_GardenRoots</option>
+                      <option disabled>MinorItem_ImprovisedPoncho</option>
+                      <option disabled>MinorItem_LookingForExcellence</option>
+                      <option disabled>MinorItem_MemoriesOfThePast</option>
+                      <option disabled>MinorItem_SageSupport</option>
+                      <option disabled>MinorItem_UnknowableFuture</option>
+                      <option disabled>MinorItem_WraithLightness</option>
+                      <option disabled>MinorItem_WraithLightness2</option>
+                      <option disabled>MinorItem_WraithRecharged</option>
+                      <option disabled>MinorItem_WraithSolidity</option>
+                      <option disabled>MinorItem_WraithSolidity2</option>
+                      <option disabled>MinorItem_Wraith_BreathingExercises</option>
+                      <option disabled>MinorItem_Wraith_ButterflyLunge</option>
+                      <option disabled>MinorItem_Wraith_ButterflySpin</option>
+                      <option disabled>MinorItem_Wraith_ConnectionToTheBeyond</option>
+                      <option disabled>MinorItem_Wraith_JustOutOfSight</option>
+                      <option disabled>MinorItem_Wraith_LightenedHeart</option>
+                      <option disabled>MinorItem_Wraith_MatterFromEnergy</option>
+                      <option disabled>MinorItem_Wraith_SharedSearch</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Adds an item to your inventory</td>
               </tr>
               <tr style="height: 20px;">
@@ -908,38 +1019,40 @@
                   <td class="s6" dir="ltr">Unlock</td>
                   <td class="s7"><br></td>
                   <td class="s7"><br></td>
-                  <td class="s12" dir="ltr"><select disabled="true">
-                    <option>INVALID</option>
-                    <option>ACH_TUTORIAL</option>
-                    <option>ACH_SHARD_1</option>
-                    <option>ACH_SHARD_2</option>
-                    <option>ACH_SHARD_3</option>
-                    <option>ACH_SHARD_4</option>
-                    <option>ACH_SHARD_5</option>
-                    <option>ACH_SHARD_6</option>
-                    <option>ACH_SHARD_7</option>
-                    <option>ACH_SHARD_8</option>
-                    <option>ACH_SHARD_9</option>
-                    <option>ACH_SHARD_10</option>
-                    <option>ACH_PERFECT_LANDING</option>
-                    <option>ACH_PERFECT_LANDING_MASTER</option>
-                    <option>ACH_IRON_MAN</option>
-                    <option>ACH_S_STAR</option>
-                    <option>ACH_BARE_BONES</option>
-                    <option>ACH_SPENDER</option>
-                    <option>ACH_MARATHON</option>
-                    <option>ACH_MARATHON_2</option>
-                    <option>ACH_PERFECTION</option>
-                    <option>ACH_BUY_ALL_ITEMS</option>
-                    <option>ACH_DISCOVER_ALL_ITEMS</option>
-                    <option>ACH_PLAY_FIFTY_ENCOUNTERS</option>
-                    <option>ACH_GET_LEGENDARY_ITEM</option>
-                    <option>ACH_HAVE_THREE_LEGENDARY_ITEMS</option>
-                    <option>ACH_LOSE_FIRST_LEVEL</option>
-                    <option>ACH_UNTOUCHABLE</option>
-                    <option>ACH_UNTOUCHABLE_2</option>
-                    <option>ACH_ENDLESS</option>
-                  </select></td>
+                  <td class="s12" dir="ltr">
+                    <select>
+                      <option disabled selected hidden>Click to view list of achievement identifiers</option>
+                      <option disabled>INVALID</option>
+                      <option disabled>ACH_TUTORIAL</option>
+                      <option disabled>ACH_SHARD_1</option>
+                      <option disabled>ACH_SHARD_2</option>
+                      <option disabled>ACH_SHARD_3</option>
+                      <option disabled>ACH_SHARD_4</option>
+                      <option disabled>ACH_SHARD_5</option>
+                      <option disabled>ACH_SHARD_6</option>
+                      <option disabled>ACH_SHARD_7</option>
+                      <option disabled>ACH_SHARD_8</option>
+                      <option disabled>ACH_SHARD_9</option>
+                      <option disabled>ACH_SHARD_10</option>
+                      <option disabled>ACH_PERFECT_LANDING</option>
+                      <option disabled>ACH_PERFECT_LANDING_MASTER</option>
+                      <option disabled>ACH_IRON_MAN</option>
+                      <option disabled>ACH_S_STAR</option>
+                      <option disabled>ACH_BARE_BONES</option>
+                      <option disabled>ACH_SPENDER</option>
+                      <option disabled>ACH_MARATHON</option>
+                      <option disabled>ACH_MARATHON_2</option>
+                      <option disabled>ACH_PERFECTION</option>
+                      <option disabled>ACH_BUY_ALL_ITEMS</option>
+                      <option disabled>ACH_DISCOVER_ALL_ITEMS</option>
+                      <option disabled>ACH_PLAY_FIFTY_ENCOUNTERS</option>
+                      <option disabled>ACH_GET_LEGENDARY_ITEM</option>
+                      <option disabled>ACH_HAVE_THREE_LEGENDARY_ITEMS</option>
+                      <option disabled>ACH_LOSE_FIRST_LEVEL</option>
+                      <option disabled>ACH_UNTOUCHABLE</option>
+                      <option disabled>ACH_UNTOUCHABLE_2</option>
+                      <option disabled>ACH_ENDLESS</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Grants you the specified achievement</td>
               </tr>
               <tr style="height: 20px;">
@@ -1027,43 +1140,45 @@
                   <td class="s6" dir="ltr">AddToFact</td>
                   <td class="s11" dir="ltr">fact name</td>
                   <td class="s11" dir="ltr">fact value</td>
-                  <td class="s20" dir="ltr" rowspan="5"><select disabled="true">
-                    <option>tutorial_finished</option>
-                    <option>Time_Travel_Start</option>
-                    <option>Time_Travel_Done</option>
-                    <option>in_run</option>
-                    <option>started_run_this_session</option>
-                    <option>currently_unlocking_ability_cost</option>
-                    <option>pool_cooldown_(pool</option>
-                    <option>object)</option>
-                    <option>(item)_ShowItem</option>
-                    <option>current_run_shard</option>
-                    <option>successive_wins</option>
-                    <option>total_runs</option>
-                    <option>wins</option>
-                    <option>losses</option>
-                    <option>last_run_was_win</option>
-                    <option>last_run_was_loss</option>
-                    <option>current_run_progress</option>
-                    <option>TutorialPopUp_Played_(tutorial</option>
-                    <option>id)</option>
-                    <option>Has_Won_Game</option>
-                    <option>Credits_Shown</option>
-                    <option>endless_unlocked</option>
-                    <option>FirstTimeShop</option>
-                    <option>item_unlocked_(item)</option>
-                    <option>heir_in_hub</option>
-                    <option>captain_in_hub</option>
-                    <option>researcher_in_hub</option>
-                    <option>wraith_in_hub</option>
-                    <option>current_unbeaten_shard</option>
-                    <option>(item)_Bought</option>
-                    <option>had_hub_interaction</option>
-                    <option>active_ability</option>
-                    <option>ability_slomo_unlocked</option>
-                    <option>ability_grapple_unlocked</option>
-                    <option>ability_fly_unlocked</option>
-                  </select></td>
+                  <td class="s20" dir="ltr" rowspan="5">
+                    <select>
+                      <option disabled selected hidden>Click to view list of fact names</option>
+                      <option disabled>tutorial_finished</option>
+                      <option disabled>Time_Travel_Start</option>
+                      <option disabled>Time_Travel_Done</option>
+                      <option disabled>in_run</option>
+                      <option disabled>started_run_this_session</option>
+                      <option disabled>currently_unlocking_ability_cost</option>
+                      <option disabled>pool_cooldown_(pool</option>
+                      <option disabled>object)</option>
+                      <option disabled>(item)_ShowItem</option>
+                      <option disabled>current_run_shard</option>
+                      <option disabled>successive_wins</option>
+                      <option disabled>total_runs</option>
+                      <option disabled>wins</option>
+                      <option disabled>losses</option>
+                      <option disabled>last_run_was_win</option>
+                      <option disabled>last_run_was_loss</option>
+                      <option disabled>current_run_progress</option>
+                      <option disabled>TutorialPopUp_Played_(tutorial</option>
+                      <option disabled>id)</option>
+                      <option disabled>Has_Won_Game</option>
+                      <option disabled>Credits_Shown</option>
+                      <option disabled>endless_unlocked</option>
+                      <option disabled>FirstTimeShop</option>
+                      <option disabled>item_unlocked_(item)</option>
+                      <option disabled>heir_in_hub</option>
+                      <option disabled>captain_in_hub</option>
+                      <option disabled>researcher_in_hub</option>
+                      <option disabled>wraith_in_hub</option>
+                      <option disabled>current_unbeaten_shard</option>
+                      <option disabled>(item)_Bought</option>
+                      <option disabled>had_hub_interaction</option>
+                      <option disabled>active_ability</option>
+                      <option disabled>ability_slomo_unlocked</option>
+                      <option disabled>ability_grapple_unlocked</option>
+                      <option disabled>ability_fly_unlocked</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Adds the specified value to the specified fact</td>
               </tr>
               <tr style="height: 20px;">
@@ -1147,12 +1262,14 @@
                   <td class="s6" dir="ltr">Unlock</td>
                   <td class="s11" dir="ltr">ability identifier</td>
                   <td class="s7"><br></td>
-                  <td class="s12" dir="ltr"><select disabled="true">
-                    <option>BoardBoost</option>
-                    <option>Slomo</option>
-                    <option>Grapple</option>
-                    <option>Fly</option>
-                  </select></td>
+                  <td class="s12" dir="ltr">
+                    <select>
+                      <option disabled selected hidden>Click to view list of ability identifiers</option>
+                      <option disabled>BoardBoost</option>
+                      <option disabled>Slomo</option>
+                      <option disabled>Grapple</option>
+                      <option disabled>Fly</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Grants access to use the specified ability</td>
               </tr>
               <tr style="height: 20px;">
@@ -1240,18 +1357,21 @@
                   <td class="s27" dir="ltr">SetShardComplete</td>
                   <td class="s11" dir="ltr">shard id</td>
                   <td class="s7"><br></td>
-                  <td class="s12" dir="ltr"><select disabled="true">
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                  </select></td>
+                  <td class="s12" dir="ltr">
+                    <select>
+                      <option disabled selected hidden>Click to view list of shard IDs</option>
+                      <option disabled>0</option>
+                      <option disabled>1</option>
+                      <option disabled>2</option>
+                      <option disabled>3</option>
+                      <option disabled>4</option>
+                      <option disabled>5</option>
+                      <option disabled>6</option>
+                      <option disabled>7</option>
+                      <option disabled>8</option>
+                      <option disabled>9</option>
+                      <option disabled>100</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Marks the specified shard as beaten</td>
               </tr>
               <tr style="height: 20px;">
@@ -1273,18 +1393,21 @@
                   <td class="s27" dir="ltr">UnlockToShard</td>
                   <td class="s11" dir="ltr">shard id</td>
                   <td class="s7"><br></td>
-                  <td class="s12" dir="ltr"><select disabled="true">
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                  </select></td>
+                  <td class="s12" dir="ltr">
+                    <select>
+                      <option disabled selected hidden>Click to view list of shard IDs</option>
+                      <option disabled>0</option>
+                      <option disabled>1</option>
+                      <option disabled>2</option>
+                      <option disabled>3</option>
+                      <option disabled>4</option>
+                      <option disabled>5</option>
+                      <option disabled>6</option>
+                      <option disabled>7</option>
+                      <option disabled>8</option>
+                      <option disabled>9</option>
+                      <option disabled>100</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Marks all shards before the specified shard as beaten</td>
               </tr>
               <tr style="height: 20px;">
@@ -1306,69 +1429,71 @@
                   <td class="s18" dir="ltr">PlayEncounter</td>
                   <td class="s11" dir="ltr">encounter identifier</td>
                   <td class="s7"><br></td>
-                  <td class="s12" dir="ltr"><select disabled="true">
-                    <option>sage_01_planting</option>
-                    <option>sage_02_memories</option>
-                    <option>sage_03_sparks</option>
-                    <option>sage_04_coat</option>
-                    <option>sage_05_diamonds</option>
-                    <option>sage_06_flap_lesson</option>
-                    <option>sage_07_support</option>
-                    <option>sage_08_age</option>
-                    <option>wraith_01_respite</option>
-                    <option>wraith_02_gift</option>
-                    <option>wraith_03_butterflies</option>
-                    <option>wraith_04_creation</option>
-                    <option>wraith_05_meditation</option>
-                    <option>wraith_06_friendship</option>
-                    <option>wraith_07_strange_power_1</option>
-                    <option>wraith_08_strange_power_2</option>
-                    <option>wraith_09_place</option>
-                    <option>wraith_10_breathing</option>
-                    <option>wraith_11_receiving</option>
-                    <option>wraith_12_giving</option>
-                    <option>wraith_13_world</option>
-                    <option>heir_01_heir_spotted</option>
-                    <option>heir_02_shortcut</option>
-                    <option>heir_03_training</option>
-                    <option>heir_04_sparks</option>
-                    <option>heir_05_meditation</option>
-                    <option>heir_06_balance</option>
-                    <option>heir_07_perseverance</option>
-                    <option>heir_08_spark_training</option>
-                    <option>heir_09_energy_expenditure</option>
-                    <option>heir_10_test</option>
-                    <option>captain_01_unlikely_story</option>
-                    <option>captain_02_thursday_1</option>
-                    <option>captain_03_thursday_2</option>
-                    <option>captain_04_thursday_3</option>
-                    <option>captain_05_thursday_4</option>
-                    <option>captain_06_booster</option>
-                    <option>captain_07_protection</option>
-                    <option>captain_08_footsteps</option>
-                    <option>captain_09_priorities</option>
-                    <option>captain_10_bet</option>
-                    <option>captain_11_heir</option>
-                    <option>captain_12_crew</option>
-                    <option>captain_13_heir_race</option>
-                    <option>captain_14_sage_race</option>
-                    <option>captain_15_researcher_race</option>
-                    <option>captain_16_do_anything</option>
-                    <option>researcher_01_time</option>
-                    <option>researcher_02_equipment_test</option>
-                    <option>researcher_03_spark_study</option>
-                    <option>researcher_04_robot_relationship</option>
-                    <option>researcher_05_existence</option>
-                    <option>researcher_06_progression</option>
-                    <option>researcher_07_experimental_medicine</option>
-                    <option>researcher_08_uncertainty_principles</option>
-                    <option>researcher_09_experimental_device</option>
-                    <option>researcher_10_healthcare</option>
-                    <option>researcher_11_boost</option>
-                    <option>researcher_12_trial_and_error</option>
-                    <option>researcher_13_overcharging</option>
-                    <option>researcher_14_healthcare_malfunction</option>
-                  </select></td>
+                  <td class="s12" dir="ltr">
+                    <select>
+                      <option disabled selected hidden>Click to view list of encounter identifiers</option>
+                      <option disabled>sage_01_planting</option>
+                      <option disabled>sage_02_memories</option>
+                      <option disabled>sage_03_sparks</option>
+                      <option disabled>sage_04_coat</option>
+                      <option disabled>sage_05_diamonds</option>
+                      <option disabled>sage_06_flap_lesson</option>
+                      <option disabled>sage_07_support</option>
+                      <option disabled>sage_08_age</option>
+                      <option disabled>wraith_01_respite</option>
+                      <option disabled>wraith_02_gift</option>
+                      <option disabled>wraith_03_butterflies</option>
+                      <option disabled>wraith_04_creation</option>
+                      <option disabled>wraith_05_meditation</option>
+                      <option disabled>wraith_06_friendship</option>
+                      <option disabled>wraith_07_strange_power_1</option>
+                      <option disabled>wraith_08_strange_power_2</option>
+                      <option disabled>wraith_09_place</option>
+                      <option disabled>wraith_10_breathing</option>
+                      <option disabled>wraith_11_receiving</option>
+                      <option disabled>wraith_12_giving</option>
+                      <option disabled>wraith_13_world</option>
+                      <option disabled>heir_01_heir_spotted</option>
+                      <option disabled>heir_02_shortcut</option>
+                      <option disabled>heir_03_training</option>
+                      <option disabled>heir_04_sparks</option>
+                      <option disabled>heir_05_meditation</option>
+                      <option disabled>heir_06_balance</option>
+                      <option disabled>heir_07_perseverance</option>
+                      <option disabled>heir_08_spark_training</option>
+                      <option disabled>heir_09_energy_expenditure</option>
+                      <option disabled>heir_10_test</option>
+                      <option disabled>captain_01_unlikely_story</option>
+                      <option disabled>captain_02_thursday_1</option>
+                      <option disabled>captain_03_thursday_2</option>
+                      <option disabled>captain_04_thursday_3</option>
+                      <option disabled>captain_05_thursday_4</option>
+                      <option disabled>captain_06_booster</option>
+                      <option disabled>captain_07_protection</option>
+                      <option disabled>captain_08_footsteps</option>
+                      <option disabled>captain_09_priorities</option>
+                      <option disabled>captain_10_bet</option>
+                      <option disabled>captain_11_heir</option>
+                      <option disabled>captain_12_crew</option>
+                      <option disabled>captain_13_heir_race</option>
+                      <option disabled>captain_14_sage_race</option>
+                      <option disabled>captain_15_researcher_race</option>
+                      <option disabled>captain_16_do_anything</option>
+                      <option disabled>researcher_01_time</option>
+                      <option disabled>researcher_02_equipment_test</option>
+                      <option disabled>researcher_03_spark_study</option>
+                      <option disabled>researcher_04_robot_relationship</option>
+                      <option disabled>researcher_05_existence</option>
+                      <option disabled>researcher_06_progression</option>
+                      <option disabled>researcher_07_experimental_medicine</option>
+                      <option disabled>researcher_08_uncertainty_principles</option>
+                      <option disabled>researcher_09_experimental_device</option>
+                      <option disabled>researcher_10_healthcare</option>
+                      <option disabled>researcher_11_boost</option>
+                      <option disabled>researcher_12_trial_and_error</option>
+                      <option disabled>researcher_13_overcharging</option>
+                      <option disabled>researcher_14_healthcare_malfunction</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Transitions to the specified encounter (Doesn&apos;t work correctly if used in the hub)</td>
               </tr>
               <tr style="height: 20px;">
@@ -1467,27 +1592,29 @@
                   <td class="s6" dir="ltr">DebugOpenPopup</td>
                   <td class="s11" dir="ltr">tutorial identifier</td>
                   <td class="s7"><br></td>
-                  <td class="s12" dir="ltr"><select disabled="true">
-                    <option>FindShard</option>
-                    <option>EnterShard</option>
-                    <option>FragmentMap</option>
-                    <option>FragmentTypes</option>
-                    <option>Ranking</option>
-                    <option>ManifestItem</option>
-                    <option>CompletedFirstShard</option>
-                    <option>VoidFragment</option>
-                    <option>AntiSparks</option>
-                    <option>Abilities</option>
-                    <option>CouriersBoard</option>
-                    <option>ItemView</option>
-                    <option>Ability_Grapple</option>
-                    <option>Ability_Slomo</option>
-                    <option>Ability_Fly</option>
-                    <option>EndLess</option>
-                    <option>EndLess_FindShard</option>
-                    <option>WinGame</option>
-                    <option>None</option>
-                  </select></td>
+                  <td class="s12" dir="ltr">
+                    <select>
+                      <option disabled selected hidden>Click to view list of tutorial identifiers</option>
+                      <option disabled>FindShard</option>
+                      <option disabled>EnterShard</option>
+                      <option disabled>FragmentMap</option>
+                      <option disabled>FragmentTypes</option>
+                      <option disabled>Ranking</option>
+                      <option disabled>ManifestItem</option>
+                      <option disabled>CompletedFirstShard</option>
+                      <option disabled>VoidFragment</option>
+                      <option disabled>AntiSparks</option>
+                      <option disabled>Abilities</option>
+                      <option disabled>CouriersBoard</option>
+                      <option disabled>ItemView</option>
+                      <option disabled>Ability_Grapple</option>
+                      <option disabled>Ability_Slomo</option>
+                      <option disabled>Ability_Fly</option>
+                      <option disabled>EndLess</option>
+                      <option disabled>EndLess_FindShard</option>
+                      <option disabled>WinGame</option>
+                      <option disabled>None</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Makes the specified tutorial visible</td>
               </tr>
               <tr style="height: 20px;">
@@ -1498,18 +1625,21 @@
                   <td class="s27" dir="ltr">PlayShard</td>
                   <td class="s11" dir="ltr">shard id</td>
                   <td class="s7"><br></td>
-                  <td class="s12" dir="ltr"><select disabled="true">
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                  </select></td>
+                  <td class="s12" dir="ltr">
+                    <select>
+                      <option disabled selected hidden>Click to view list of shard IDs</option>
+                      <option disabled>0</option>
+                      <option disabled>1</option>
+                      <option disabled>2</option>
+                      <option disabled>3</option>
+                      <option disabled>4</option>
+                      <option disabled>5</option>
+                      <option disabled>6</option>
+                      <option disabled>7</option>
+                      <option disabled>8</option>
+                      <option disabled>9</option>
+                      <option disabled>100</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Immediately enters a run of the specified shard with a random seed</td>
               </tr>
               <tr style="height: 20px;">
@@ -1520,18 +1650,21 @@
                   <td class="s27" dir="ltr">PlayShardSeeded</td>
                   <td class="s11" dir="ltr">shard id</td>
                   <td class="s11" dir="ltr">shard seed</td>
-                  <td class="s12" dir="ltr"><select disabled="true">
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                  </select></td>
+                  <td class="s12" dir="ltr">
+                    <select>
+                      <option disabled selected hidden>Click to view list of shard IDs</option>
+                      <option disabled>0</option>
+                      <option disabled>1</option>
+                      <option disabled>2</option>
+                      <option disabled>3</option>
+                      <option disabled>4</option>
+                      <option disabled>5</option>
+                      <option disabled>6</option>
+                      <option disabled>7</option>
+                      <option disabled>8</option>
+                      <option disabled>9</option>
+                      <option disabled>100</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Immediately enters a run of the specified shard with the specified seed</td>
               </tr>
               <tr style="height: 20px;">
