@@ -421,19 +421,6 @@
           direction: ltr;
           padding: 2px 3px 2px 3px;
       }
-
-      .ritz .waffle .s12 select {
-        background-color: #a26ba8;
-        color: #000001;
-        scrollbar-color: red blue;
-        scrollbar-width: thin;
-      }
-
-      .ritz .waffle .s12 select option:disabled {
-        background-color: #a26ba8;
-        opacity: 1;
-        color: #000000;
-      }
   </style>
   <div class="ritz grid-container" dir="ltr">
       <table class="waffle" cellspacing="2" cellpadding="0" style="width:100%;">
@@ -477,7 +464,8 @@
                   <td class="s11" dir="ltr">interaction identifier</td>
                   <td class="s7"><br></td>
                   <td class="s12" dir="ltr">
-                    <select style="scrollbar-thumb-color: blue; scrollbar-track-color: red;">
+                    <button type="button" class="collapsible">Click for Item Identifier List</button>
+                    <div class="content">
                       <option disabled="true" selected="true">Items</option>
                       <option disabled="true">Active_Boost</option>
                       <option disabled="true">Active_Grapple</option>
@@ -638,7 +626,7 @@
                       <option disabled="true">MinorItem_Wraith_LightenedHeart</option>
                       <option disabled="true">MinorItem_Wraith_MatterFromEnergy</option>
                       <option disabled="true">MinorItem_Wraith_SharedSearch</option>
-                    </select></td>
+                    </div></td>
                   <td class="s9" dir="ltr">Runs a conversation with an NPC</td>
               </tr>
               <tr style="height: 20px;">
