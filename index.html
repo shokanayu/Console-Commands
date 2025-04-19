@@ -8,7 +8,7 @@
           color: inherit;
       }
 
-      /*.ritz .waffle .s12 {
+      .ritz .waffle .s12 {
           background-color: #c27ba0;
           text-align: left;
           color: #000000;
@@ -18,29 +18,6 @@
           white-space: nowrap;
           direction: ltr;
           padding: 2px 3px 2px 3px;
-      }*/
-
-      .ritz .waffle .s12 .custom-select {
-        position: relative;
-      }
-      
-      .ritz .waffle .s12 .custom-select select {
-        display: none;
-      }
-
-      .select-selected {
-        background-color:#65324d
-      }
-    
-      .select-selected:after {
-        position: absolute;
-        content: "";
-        top: 14px;
-        right: 10px;
-        width: 0;
-        height: 0;
-        border: 6px solid transparent;
-        border-color: #fff transparent transparent transparent;
       }
 
       .ritz .waffle .s15 {
@@ -487,170 +464,169 @@
                   <td class="s11" dir="ltr">interaction identifier</td>
                   <td class="s7"><br></td>
                   <td class="s12" dir="ltr">
-                    <div class="custom-select" style="width:200px">
-                      <select>
-                        <option disabled="true" selected="true">Items</option>
-                        <option disabled="true" style="color:#000000">Active_Boost</option>
-                        <option disabled="true" style="color:#000000">Active_Grapple</option>
-                        <option disabled="true" style="color:#000000">Active_Heal</option>
-                        <option disabled="true" style="color:#000000">Active_Jump</option>
-                        <option disabled="true" style="color:#000000">Active_Redirection</option>
-                        <option disabled="true" style="color:#000000">Active_Shield</option>
-                        <option disabled="true">Active_Slomo</option>
-                        <option disabled="true">Active_SparkDash</option>
-                        <option disabled="true">Active_TradeHpForBoost</option>
-                        <option disabled="true">Active_TradeSpeedForHeal</option>
-                        <option disabled="true">AutoPilot</option>
-                        <option disabled="true">BecomeInvulnerableForAMomentOnPerfectLanding</option>
-                        <option disabled="true">BlockDamageWithChance</option>
-                        <option disabled="true">BlockDamageWithCooldown</option>
-                        <option disabled="true">BoostPerMissingHealth</option>
-                        <option disabled="true">BoostPerPerfectLandingStreak</option>
-                        <option disabled="true">BoostPerSpark</option>
-                        <option disabled="true">ChanceForFullHP</option>
-                        <option disabled="true">CloseCallBoost</option>
-                        <option disabled="true">CloseCallCooldown</option>
-                        <option disabled="true">CloseCallEcho</option>
-                        <option disabled="true">CloseCallEnergy</option>
-                        <option disabled="true">CloseCallHeal</option>
-                        <option disabled="true">CloseCallInv</option>
-                        <option disabled="true">CloseCallLuck</option>
-                        <option disabled="true">CloseCallSave</option>
-                        <option disabled="true">CooldownReductionOnPerfectLanding</option>
-                        <option disabled="true">CooldownReductionPerBoost</option>
-                        <option disabled="true">CooldownReductionWithCooldown</option>
-                        <option disabled="true">GetBoostAtFullHealth</option>
-                        <option disabled="true">GetBoostOnHeal</option>
-                        <option disabled="true">GetBoostWhenTakeDamage</option>
-                        <option disabled="true">GetBoostWithCooldown</option>
-                        <option disabled="true">GetEnergyWithCooldown</option>
-                        <option disabled="true">GetHealedOnPerfectLanding</option>
-                        <option disabled="true">GetHealthWhenTakeDamage</option>
-                        <option disabled="true">HealthRegenAtAlmostFullHealth</option>
-                        <option disabled="true">LuckPerMissingHealth</option>
-                        <option disabled="true">MaxHealthButDieOnOkOrBadLanding</option>
-                        <option disabled="true">NEW_Active_HealWhenTakeDamage</option>
-                        <option disabled="true">NEW_Active_KillObstacles</option>
-                        <option disabled="true">NEW_Active_KillObstaclesPulse</option>
-                        <option disabled="true">NEW_Active_StickToGround</option>
-                        <option disabled="true">NEW_Active_Teleport</option>
-                        <option disabled="true">NEW_Active_TempSpeed</option>
-                        <option disabled="true">NEW_BigEffectOnSlowSpeed</option>
-                        <option disabled="true">NEW_BoostIfLastLandingWasPerfect</option>
-                        <option disabled="true">NEW_EnergyOnRunning</option>
-                        <option disabled="true">NEW_HealOnRunning</option>
-                        <option disabled="true">NEW_HealPerEnergyUsed</option>
-                        <option disabled="true">NEW_InvuPerEnergyUsed</option>
-                        <option disabled="true">NEW_OnSparkPickupBigEffect</option>
-                        <option disabled="true">NEW_Phoenix</option>
-                        <option disabled="true">NEW_PlaceRingInFront</option>
-                        <option disabled="true">NEW_RegenIfLastLandingWasPerfect</option>
-                        <option disabled="true">NEW_RegenWithSpeed_Threshold</option>
-                        <option disabled="true">NEW_RewindOnDamage</option>
-                        <option disabled="true">NEW_SparksOnRunning</option>
-                        <option disabled="true">NEW_StartWithBoost</option>
-                        <option disabled="true">NEW_StartWithEnergy</option>
-                        <option disabled="true">NEW_StartWithHeal</option>
-                        <option disabled="true">NEW_StartWithMoney</option>
-                        <option disabled="true">OnGetCoin_Boost</option>
-                        <option disabled="true">OnGetCoin_Energy</option>
-                        <option disabled="true">OnGetCoin_Heal</option>
-                        <option disabled="true">OnGetCoin_Invuln</option>
-                        <option disabled="true">PermanentBoost</option>
-                        <option disabled="true">RandomChanceToBoostOnPerfectLanding</option>
-                        <option disabled="true">RandomChanceToGetLuck</option>
-                        <option disabled="true">RandomChanceToRegen</option>
-                        <option disabled="true">RandomChanceToSaveNonPerfectLanding</option>
-                        <option disabled="true">Regen</option>
-                        <option disabled="true">RegenerationPerBoost</option>
-                        <option disabled="true">RegenPercent</option>
-                        <option disabled="true">RegenPerMissingHealth</option>
-                        <option disabled="true">SaveANonPerfectLandingWithCooldown</option>
-                        <option disabled="true">SparksChanceOnPerfectLanding</option>
-                        <option disabled="true">SparksChanceOverTime</option>
-                        <option disabled="true">SparksOnPerfectLanding</option>
-                        <option disabled="true">SparksOverTime</option>
-                        <option disabled="true">SparksOverTimeDamageOnPickUp</option>
-                        <option disabled="true">Stats_CoinPickupRange</option>
-                        <option disabled="true">Stats_Luck</option>
-                        <option disabled="true">Stats_LuckOnFullHealth</option>
-                        <option disabled="true">Stats_MaxHealthFlat</option>
-                        <option disabled="true">Stats_MaxHealthMultiply</option>
-                        <option disabled="true">Stats_MaxHealthOnSpeed</option>
-                        <option disabled="true">Stats_SparkInLevel</option>
-                        <option disabled="true">Stats_SparkOnTakeDamage</option>
-                        <option disabled="true">TakeDamageOnBadLandingButGetPermanentBoost</option>
-                        <option disabled="true">TakeDamageOnCloseCallButGetPermanentBoost</option>
-                        <option disabled="true">MinorItem</option>
-                        <option disabled="true">MinorItem_Captain_ActualProtection</option>
-                        <option disabled="true">MinorItem_Captain_CaptainCautious</option>
-                        <option disabled="true">MinorItem_Captain_CaptainInspired</option>
-                        <option disabled="true">MinorItem_Captain_CaptainPrecisionFocus</option>
-                        <option disabled="true">MinorItem_Captain_CaptainsEncouragement</option>
-                        <option disabled="true">MinorItem_Captain_CaptainsFootsteps</option>
-                        <option disabled="true">MinorItem_Captain_CaptainsLifeLesson</option>
-                        <option disabled="true">MinorItem_Captain_CaptainSpeedFocus</option>
-                        <option disabled="true">MinorItem_Captain_CaptainsRaid</option>
-                        <option disabled="true">MinorItem_Captain_ConditionalProtection</option>
-                        <option disabled="true">MinorItem_Captain_FlotationDevice</option>
-                        <option disabled="true">MinorItem_Captain_NeverStop_1</option>
-                        <option disabled="true">MinorItem_Captain_NeverStop_2</option>
-                        <option disabled="true">MinorItem_Captain_SecretTrainingRegimen_1</option>
-                        <option disabled="true">MinorItem_Captain_SecretTrainingRegimen_2</option>
-                        <option disabled="true">MinorItem_Captain_ThursdayHat</option>
-                        <option disabled="true">MinorItem_EyeForValue</option>
-                        <option disabled="true">MinorItem_SelfPreservation</option>
-                        <option disabled="true">MinorItem_SparkDiscoveries</option>
-                        <option disabled="true">MinorItem_Heir_AerodynamicPractice</option>
-                        <option disabled="true">MinorItem_Heir_Agility</option>
-                        <option disabled="true">MinorItem_Heir_BalanceTraining</option>
-                        <option disabled="true">MinorItem_Heir_CrushingExercise</option>
-                        <option disabled="true">MinorItem_Heir_DefenseTraining</option>
-                        <option disabled="true">MinorItem_Heir_IntenseExercise</option>
-                        <option disabled="true">MinorItem_Heir_Prudence</option>
-                        <option disabled="true">MinorItem_Heir_ResistanceTraining</option>
-                        <option disabled="true">MinorItem_Heir_RiskTaker</option>
-                        <option disabled="true">MinorItem_Heir_RiskTakerCost</option>
-                        <option disabled="true">MinorItem_Heir_Shortcut</option>
-                        <option disabled="true">MinorItem_Heir_ShortcutCost</option>
-                        <option disabled="true">MinorItem_Heir_SparkPractice</option>
-                        <option disabled="true">MinorItem_Researcher_Action</option>
-                        <option disabled="true">MinorItem_Researcher_AncientGravitron</option>
-                        <option disabled="true">MinorItem_Researcher_AncientSlingshot</option>
-                        <option disabled="true">MinorItem_Researcher_BoostTheorem</option>
-                        <option disabled="true">MinorItem_Researcher_HarshReality</option>
-                        <option disabled="true">MinorItem_Researcher_HealthMachine</option>
-                        <option disabled="true">MinorItem_Researcher_OverchargeHarness</option>
-                        <option disabled="true">MinorItem_Researcher_OverchargeHarnessCost</option>
-                        <option disabled="true">MinorItem_Researcher_Reaction</option>
-                        <option disabled="true">MinorItem_Researcher_SpeedOfTime</option>
-                        <option disabled="true">MinorItem_Researcher_Support</option>
-                        <option disabled="true">MinorItem_Researcher_ThisShallPass</option>
-                        <option disabled="true">MinorItem_Researcher_UnclearExistence</option>
-                        <option disabled="true">MinorItem_Researcher_UnstableConsequences</option>
-                        <option disabled="true">MinorItem_Researcher_UnstableInvention</option>
-                        <option disabled="true">MinorItem_AerialLessons</option>
-                        <option disabled="true">MinorItem_GardenRoots</option>
-                        <option disabled="true">MinorItem_ImprovisedPoncho</option>
-                        <option disabled="true">MinorItem_LookingForExcellence</option>
-                        <option disabled="true">MinorItem_MemoriesOfThePast</option>
-                        <option disabled="true">MinorItem_SageSupport</option>
-                        <option disabled="true">MinorItem_UnknowableFuture</option>
-                        <option disabled="true">MinorItem_WraithLightness</option>
-                        <option disabled="true">MinorItem_WraithLightness2</option>
-                        <option disabled="true">MinorItem_WraithRecharged</option>
-                        <option disabled="true">MinorItem_WraithSolidity</option>
-                        <option disabled="true">MinorItem_WraithSolidity2</option>
-                        <option disabled="true">MinorItem_Wraith_BreathingExercises</option>
-                        <option disabled="true">MinorItem_Wraith_ButterflyLunge</option>
-                        <option disabled="true">MinorItem_Wraith_ButterflySpin</option>
-                        <option disabled="true">MinorItem_Wraith_ConnectionToTheBeyond</option>
-                        <option disabled="true">MinorItem_Wraith_JustOutOfSight</option>
-                        <option disabled="true">MinorItem_Wraith_LightenedHeart</option>
-                        <option disabled="true">MinorItem_Wraith_MatterFromEnergy</option>
-                        <option disabled="true">MinorItem_Wraith_SharedSearch</option>
-                      </select></td>
-                    </div>
+                    <select>
+                      <button style="background-color:#65324d"></button>
+                      <option disabled="true" selected="true">Items</option>
+                      <option disabled="true">Active_Boost</option>
+                      <option disabled="true">Active_Grapple</option>
+                      <option disabled="true">Active_Heal</option>
+                      <option disabled="true">Active_Jump</option>
+                      <option disabled="true">Active_Redirection</option>
+                      <option disabled="true">Active_Shield</option>
+                      <option disabled="true">Active_Slomo</option>
+                      <option disabled="true">Active_SparkDash</option>
+                      <option disabled="true">Active_TradeHpForBoost</option>
+                      <option disabled="true">Active_TradeSpeedForHeal</option>
+                      <option disabled="true">AutoPilot</option>
+                      <option disabled="true">BecomeInvulnerableForAMomentOnPerfectLanding</option>
+                      <option disabled="true">BlockDamageWithChance</option>
+                      <option disabled="true">BlockDamageWithCooldown</option>
+                      <option disabled="true">BoostPerMissingHealth</option>
+                      <option disabled="true">BoostPerPerfectLandingStreak</option>
+                      <option disabled="true">BoostPerSpark</option>
+                      <option disabled="true">ChanceForFullHP</option>
+                      <option disabled="true">CloseCallBoost</option>
+                      <option disabled="true">CloseCallCooldown</option>
+                      <option disabled="true">CloseCallEcho</option>
+                      <option disabled="true">CloseCallEnergy</option>
+                      <option disabled="true">CloseCallHeal</option>
+                      <option disabled="true">CloseCallInv</option>
+                      <option disabled="true">CloseCallLuck</option>
+                      <option disabled="true">CloseCallSave</option>
+                      <option disabled="true">CooldownReductionOnPerfectLanding</option>
+                      <option disabled="true">CooldownReductionPerBoost</option>
+                      <option disabled="true">CooldownReductionWithCooldown</option>
+                      <option disabled="true">GetBoostAtFullHealth</option>
+                      <option disabled="true">GetBoostOnHeal</option>
+                      <option disabled="true">GetBoostWhenTakeDamage</option>
+                      <option disabled="true">GetBoostWithCooldown</option>
+                      <option disabled="true">GetEnergyWithCooldown</option>
+                      <option disabled="true">GetHealedOnPerfectLanding</option>
+                      <option disabled="true">GetHealthWhenTakeDamage</option>
+                      <option disabled="true">HealthRegenAtAlmostFullHealth</option>
+                      <option disabled="true">LuckPerMissingHealth</option>
+                      <option disabled="true">MaxHealthButDieOnOkOrBadLanding</option>
+                      <option disabled="true">NEW_Active_HealWhenTakeDamage</option>
+                      <option disabled="true">NEW_Active_KillObstacles</option>
+                      <option disabled="true">NEW_Active_KillObstaclesPulse</option>
+                      <option disabled="true">NEW_Active_StickToGround</option>
+                      <option disabled="true">NEW_Active_Teleport</option>
+                      <option disabled="true">NEW_Active_TempSpeed</option>
+                      <option disabled="true">NEW_BigEffectOnSlowSpeed</option>
+                      <option disabled="true">NEW_BoostIfLastLandingWasPerfect</option>
+                      <option disabled="true">NEW_EnergyOnRunning</option>
+                      <option disabled="true">NEW_HealOnRunning</option>
+                      <option disabled="true">NEW_HealPerEnergyUsed</option>
+                      <option disabled="true">NEW_InvuPerEnergyUsed</option>
+                      <option disabled="true">NEW_OnSparkPickupBigEffect</option>
+                      <option disabled="true">NEW_Phoenix</option>
+                      <option disabled="true">NEW_PlaceRingInFront</option>
+                      <option disabled="true">NEW_RegenIfLastLandingWasPerfect</option>
+                      <option disabled="true">NEW_RegenWithSpeed_Threshold</option>
+                      <option disabled="true">NEW_RewindOnDamage</option>
+                      <option disabled="true">NEW_SparksOnRunning</option>
+                      <option disabled="true">NEW_StartWithBoost</option>
+                      <option disabled="true">NEW_StartWithEnergy</option>
+                      <option disabled="true">NEW_StartWithHeal</option>
+                      <option disabled="true">NEW_StartWithMoney</option>
+                      <option disabled="true">OnGetCoin_Boost</option>
+                      <option disabled="true">OnGetCoin_Energy</option>
+                      <option disabled="true">OnGetCoin_Heal</option>
+                      <option disabled="true">OnGetCoin_Invuln</option>
+                      <option disabled="true">PermanentBoost</option>
+                      <option disabled="true">RandomChanceToBoostOnPerfectLanding</option>
+                      <option disabled="true">RandomChanceToGetLuck</option>
+                      <option disabled="true">RandomChanceToRegen</option>
+                      <option disabled="true">RandomChanceToSaveNonPerfectLanding</option>
+                      <option disabled="true">Regen</option>
+                      <option disabled="true">RegenerationPerBoost</option>
+                      <option disabled="true">RegenPercent</option>
+                      <option disabled="true">RegenPerMissingHealth</option>
+                      <option disabled="true">SaveANonPerfectLandingWithCooldown</option>
+                      <option disabled="true">SparksChanceOnPerfectLanding</option>
+                      <option disabled="true">SparksChanceOverTime</option>
+                      <option disabled="true">SparksOnPerfectLanding</option>
+                      <option disabled="true">SparksOverTime</option>
+                      <option disabled="true">SparksOverTimeDamageOnPickUp</option>
+                      <option disabled="true">Stats_CoinPickupRange</option>
+                      <option disabled="true">Stats_Luck</option>
+                      <option disabled="true">Stats_LuckOnFullHealth</option>
+                      <option disabled="true">Stats_MaxHealthFlat</option>
+                      <option disabled="true">Stats_MaxHealthMultiply</option>
+                      <option disabled="true">Stats_MaxHealthOnSpeed</option>
+                      <option disabled="true">Stats_SparkInLevel</option>
+                      <option disabled="true">Stats_SparkOnTakeDamage</option>
+                      <option disabled="true">TakeDamageOnBadLandingButGetPermanentBoost</option>
+                      <option disabled="true">TakeDamageOnCloseCallButGetPermanentBoost</option>
+                      <option disabled="true">MinorItem</option>
+                      <option disabled="true">MinorItem_Captain_ActualProtection</option>
+                      <option disabled="true">MinorItem_Captain_CaptainCautious</option>
+                      <option disabled="true">MinorItem_Captain_CaptainInspired</option>
+                      <option disabled="true">MinorItem_Captain_CaptainPrecisionFocus</option>
+                      <option disabled="true">MinorItem_Captain_CaptainsEncouragement</option>
+                      <option disabled="true">MinorItem_Captain_CaptainsFootsteps</option>
+                      <option disabled="true">MinorItem_Captain_CaptainsLifeLesson</option>
+                      <option disabled="true">MinorItem_Captain_CaptainSpeedFocus</option>
+                      <option disabled="true">MinorItem_Captain_CaptainsRaid</option>
+                      <option disabled="true">MinorItem_Captain_ConditionalProtection</option>
+                      <option disabled="true">MinorItem_Captain_FlotationDevice</option>
+                      <option disabled="true">MinorItem_Captain_NeverStop_1</option>
+                      <option disabled="true">MinorItem_Captain_NeverStop_2</option>
+                      <option disabled="true">MinorItem_Captain_SecretTrainingRegimen_1</option>
+                      <option disabled="true">MinorItem_Captain_SecretTrainingRegimen_2</option>
+                      <option disabled="true">MinorItem_Captain_ThursdayHat</option>
+                      <option disabled="true">MinorItem_EyeForValue</option>
+                      <option disabled="true">MinorItem_SelfPreservation</option>
+                      <option disabled="true">MinorItem_SparkDiscoveries</option>
+                      <option disabled="true">MinorItem_Heir_AerodynamicPractice</option>
+                      <option disabled="true">MinorItem_Heir_Agility</option>
+                      <option disabled="true">MinorItem_Heir_BalanceTraining</option>
+                      <option disabled="true">MinorItem_Heir_CrushingExercise</option>
+                      <option disabled="true">MinorItem_Heir_DefenseTraining</option>
+                      <option disabled="true">MinorItem_Heir_IntenseExercise</option>
+                      <option disabled="true">MinorItem_Heir_Prudence</option>
+                      <option disabled="true">MinorItem_Heir_ResistanceTraining</option>
+                      <option disabled="true">MinorItem_Heir_RiskTaker</option>
+                      <option disabled="true">MinorItem_Heir_RiskTakerCost</option>
+                      <option disabled="true">MinorItem_Heir_Shortcut</option>
+                      <option disabled="true">MinorItem_Heir_ShortcutCost</option>
+                      <option disabled="true">MinorItem_Heir_SparkPractice</option>
+                      <option disabled="true">MinorItem_Researcher_Action</option>
+                      <option disabled="true">MinorItem_Researcher_AncientGravitron</option>
+                      <option disabled="true">MinorItem_Researcher_AncientSlingshot</option>
+                      <option disabled="true">MinorItem_Researcher_BoostTheorem</option>
+                      <option disabled="true">MinorItem_Researcher_HarshReality</option>
+                      <option disabled="true">MinorItem_Researcher_HealthMachine</option>
+                      <option disabled="true">MinorItem_Researcher_OverchargeHarness</option>
+                      <option disabled="true">MinorItem_Researcher_OverchargeHarnessCost</option>
+                      <option disabled="true">MinorItem_Researcher_Reaction</option>
+                      <option disabled="true">MinorItem_Researcher_SpeedOfTime</option>
+                      <option disabled="true">MinorItem_Researcher_Support</option>
+                      <option disabled="true">MinorItem_Researcher_ThisShallPass</option>
+                      <option disabled="true">MinorItem_Researcher_UnclearExistence</option>
+                      <option disabled="true">MinorItem_Researcher_UnstableConsequences</option>
+                      <option disabled="true">MinorItem_Researcher_UnstableInvention</option>
+                      <option disabled="true">MinorItem_AerialLessons</option>
+                      <option disabled="true">MinorItem_GardenRoots</option>
+                      <option disabled="true">MinorItem_ImprovisedPoncho</option>
+                      <option disabled="true">MinorItem_LookingForExcellence</option>
+                      <option disabled="true">MinorItem_MemoriesOfThePast</option>
+                      <option disabled="true">MinorItem_SageSupport</option>
+                      <option disabled="true">MinorItem_UnknowableFuture</option>
+                      <option disabled="true">MinorItem_WraithLightness</option>
+                      <option disabled="true">MinorItem_WraithLightness2</option>
+                      <option disabled="true">MinorItem_WraithRecharged</option>
+                      <option disabled="true">MinorItem_WraithSolidity</option>
+                      <option disabled="true">MinorItem_WraithSolidity2</option>
+                      <option disabled="true">MinorItem_Wraith_BreathingExercises</option>
+                      <option disabled="true">MinorItem_Wraith_ButterflyLunge</option>
+                      <option disabled="true">MinorItem_Wraith_ButterflySpin</option>
+                      <option disabled="true">MinorItem_Wraith_ConnectionToTheBeyond</option>
+                      <option disabled="true">MinorItem_Wraith_JustOutOfSight</option>
+                      <option disabled="true">MinorItem_Wraith_LightenedHeart</option>
+                      <option disabled="true">MinorItem_Wraith_MatterFromEnergy</option>
+                      <option disabled="true">MinorItem_Wraith_SharedSearch</option>
+                    </select></td>
                   <td class="s9" dir="ltr">Runs a conversation with an NPC</td>
               </tr>
               <tr style="height: 20px;">
